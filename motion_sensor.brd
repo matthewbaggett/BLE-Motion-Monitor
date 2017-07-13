@@ -962,82 +962,147 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </pass>
 </autorouter>
 <elements>
-<element name="BAT1" library="SparkFun-Electromechanical" package="BATTCON_20MM_4LEGS" value="20mm coincell" x="15" y="15" rot="MR270">
+<element name="BAT1" library="SparkFun-Electromechanical" package="BATTCON_20MM_4LEGS" value="20mm coincell" x="15" y="15" smashed="yes" rot="MR270">
 <attribute name="PROD_ID" value="BATT-10373" x="15" y="15" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="0805" value="15pF" x="6.82625" y="10.4775" rot="R180"/>
-<element name="C10" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="10.95375" y="3.01625" rot="R270"/>
-<element name="C11" library="SparkFun-Capacitors" package="0805" value="33nF" x="12.3825" y="3.01625" rot="R270"/>
-<element name="C12" library="SparkFun-Capacitors" package="0805" value="0.1µF" x="17.383125" y="8.41375" rot="R315"/>
-<element name="C13" library="SparkFun-Capacitors" package="0805" value="15pF" x="15.24" y="3.01625" rot="R90"/>
-<element name="C14" library="SparkFun-Capacitors" package="0805" value="15pF" x="13.81125" y="3.01625" rot="R90"/>
-<element name="C15" library="SparkFun-Capacitors" package="0805" value="1.5pF" x="10.63625" y="25.55875" rot="R270"/>
-<element name="C16" library="SparkFun-Capacitors" package="0603-CAP" value="22pF" x="18.176875" y="26.82875" rot="R315">
+<element name="C1" library="SparkFun-Capacitors" package="0805" value="15pF" x="6.82625" y="10.4775" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.58825" y="9.652" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="C10" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="10.95375" y="3.01625" smashed="yes" rot="R270">
+<attribute name="NAME" x="11.39825" y="1.55575" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="C11" library="SparkFun-Capacitors" package="0805" value="33nF" x="12.3825" y="3.01625" smashed="yes" rot="R270">
+<attribute name="NAME" x="12.906375" y="1.55575" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="C12" library="SparkFun-Capacitors" package="0805" value="0.1µF" x="17.383125" y="8.41375" smashed="yes" rot="R315">
+<attribute name="NAME" x="17.428025" y="9.53628125" size="0.4064" layer="25" rot="R315"/>
+</element>
+<element name="C13" library="SparkFun-Capacitors" package="0805" value="15pF" x="15.24" y="3.01625" smashed="yes" rot="R90">
+<attribute name="NAME" x="15.763875" y="1.55575" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="C14" library="SparkFun-Capacitors" package="0805" value="15pF" x="13.81125" y="3.01625" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.335125" y="1.55575" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="C15" library="SparkFun-Capacitors" package="0805" value="1.5pF" x="10.63625" y="25.55875" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.271125" y="27.178" size="0.4064" layer="25"/>
+</element>
+<element name="C16" library="SparkFun-Capacitors" package="0603-CAP" value="22pF" x="18.176875" y="26.82875" smashed="yes" rot="R315">
 <attribute name="PROD_ID" value="CAP-07876" x="18.176875" y="26.82875" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="NAME" x="16.69194375" y="27.691446875" size="0.4064" layer="25" font="vector" rot="R45"/>
 </element>
-<element name="C18" library="SparkFun-Capacitors" package="0603-CAP" value="22pF" x="14.843125" y="20.955" rot="R315">
+<element name="C18" library="SparkFun-Capacitors" package="0603-CAP" value="22pF" x="14.843125" y="20.955" smashed="yes" rot="R315">
 <attribute name="PROD_ID" value="CAP-07876" x="14.843125" y="20.955" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="NAME" x="13.43756875" y="21.817696875" size="0.4064" layer="25" font="vector" rot="R45"/>
 </element>
-<element name="C19" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="27.46375" y="15.795625" rot="R315">
+<element name="C19" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="27.46375" y="15.795625" smashed="yes" rot="R315">
 <attribute name="PROD_ID" value="CAP-00810" x="27.46375" y="15.795625" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="NAME" x="28.485196875" y="14.34368125" size="0.4064" layer="25" font="vector" rot="R315"/>
 </element>
-<element name="C2" library="SparkFun-Capacitors" package="0805" value="15pF" x="6.82625" y="12.065" rot="R180"/>
-<element name="C20" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="26.035" y="14.366875" rot="R315">
+<element name="C2" library="SparkFun-Capacitors" package="0805" value="15pF" x="6.82625" y="12.065" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.58825" y="11.2395" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="C20" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="26.035" y="14.366875" smashed="yes" rot="R315">
 <attribute name="PROD_ID" value="CAP-00810" x="26.035" y="14.366875" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="NAME" x="27.135821875" y="13.07368125" size="0.4064" layer="25" font="vector" rot="R315"/>
 </element>
-<element name="C3" library="SparkFun-Capacitors" package="0805" value="2.2nF" x="14.44625" y="15.24"/>
-<element name="C4" library="SparkFun-Capacitors" package="0805" value="0.1µF" x="5.3975" y="3.01625" rot="R270"/>
-<element name="C5" library="SparkFun-Capacitors" package="0805" value="1.8pF" x="10.63625" y="22.225" rot="R270"/>
-<element name="C6" library="SparkFun-Capacitors" package="0805" value="1.2pF" x="12.3825" y="22.225" rot="R90"/>
-<element name="C7" library="SparkFun-Capacitors" package="0805" value="1µF" x="6.82625" y="8.73125" rot="R180"/>
-<element name="C8" library="SparkFun-Capacitors" package="0805" value="1nF" x="6.82625" y="16.1925" rot="R180"/>
-<element name="C9" library="SparkFun-Capacitors" package="0805" value="10µF" x="9.36625" y="3.01625" rot="R270"/>
-<element name="D9" library="SparkFun-DiscreteSemi" package="SOD-323" value="250mA/100V" x="4.445" y="21.351875" rot="R270">
+<element name="C3" library="SparkFun-Capacitors" package="0805" value="2.2nF" x="14.44625" y="15.24" smashed="yes">
+<attribute name="NAME" x="13.68425" y="16.0655" size="0.4064" layer="25"/>
+</element>
+<element name="C4" library="SparkFun-Capacitors" package="0805" value="0.1µF" x="5.3975" y="3.01625" smashed="yes" rot="R270">
+<attribute name="NAME" x="6.223" y="3.77825" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="4.0005" y="4.03225" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="C5" library="SparkFun-Capacitors" package="0805" value="1.8pF" x="10.63625" y="22.225" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.588625" y="23.6855" size="0.4064" layer="25"/>
+</element>
+<element name="C6" library="SparkFun-Capacitors" package="0805" value="1.2pF" x="12.3825" y="22.225" smashed="yes" rot="R90">
+<attribute name="NAME" x="12.2555" y="23.6855" size="0.4064" layer="25"/>
+</element>
+<element name="C7" library="SparkFun-Capacitors" package="0805" value="1µF" x="6.82625" y="8.73125" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.58825" y="7.90575" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="C8" library="SparkFun-Capacitors" package="0805" value="1nF" x="6.82625" y="16.1925" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.58825" y="15.367" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="C9" library="SparkFun-Capacitors" package="0805" value="10µF" x="9.36625" y="3.01625" smashed="yes" rot="R270">
+<attribute name="NAME" x="9.731375" y="1.55575" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="D9" library="SparkFun-DiscreteSemi" package="SOD-323" value="250mA/100V" x="4.445" y="21.351875" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="DIO-09646" x="4.445" y="21.351875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="3.508375" y="21.097875" size="0.4064" layer="25" rot="R90"/>
 </element>
-<element name="FB1" library="microbuilder" package="0805" value="MMZ1608B121C" x="7.381875" y="3.65125" rot="R90"/>
-<element name="J1" library="SparkFun-Connectors" package="2X3" value="AVR_SPI_PRG_6PTH" x="21.828125" y="7.77875"/>
-<element name="L1" library="microbuilder" package="_0402" value="8.2nH" x="11.826875" y="16.98625" rot="R180"/>
-<element name="L2" library="microbuilder" package="_0402" value="5.6nH" x="13.17625" y="18.89125" rot="R90"/>
-<element name="L3" library="microbuilder" package="_0402" value="3.9nH" x="10.63625" y="18.89125" rot="R90"/>
-<element name="L4" library="microbuilder" package="_0603" value="10µH" x="6.82625" y="6.82625" rot="R180"/>
-<element name="L5" library="microbuilder" package="_0603" value="15nH" x="3.4925" y="6.82625" rot="R180"/>
-<element name="R1" library="SparkFun-Resistors" package="0603-RES" value="22K" x="6.82625" y="14.605" rot="R180"/>
-<element name="R2" library="SparkFun-Resistors" package="0603-RES" value="10K" x="23.33625" y="27.46375" rot="R315"/>
-<element name="U$1" library="pimoroni-optoelectronics" package="LED-3535" value="SK6812MINI" x="2.54" y="2.54" rot="R90"/>
-<element name="U$11" library="pimoroni-optoelectronics" package="LED-3535" value="SK6812MINI" x="27.14625" y="2.54" rot="R180"/>
-<element name="U$15" library="pimoroni-optoelectronics" package="LED-3535" value="SK6812MINI" x="27.46" y="27.46" rot="R270"/>
-<element name="U$17" library="pimoroni-optoelectronics" package="LED-3535" value="SK6812MINI" x="2.54" y="27.46"/>
-<element name="U$28" library="microbuilder" package="ANT_PCB_2.4GHZ_NRF8001_1.6MM_1OZ" value="" x="9.128125" y="24.685625" rot="MR180"/>
-<element name="U1" library="Texas Instruments_By_element14_Batch_1" package="SOT95P280X145-5N" value="LP2985A-33DBVTE4" x="7.064375" y="23.415625" rot="R90">
+<element name="FB1" library="microbuilder" package="0805" value="MMZ1608B121C" x="7.381875" y="3.65125" smashed="yes" rot="R90">
+<attribute name="NAME" x="8.620125" y="5.191125" size="0.8128" layer="25" ratio="18"/>
+</element>
+<element name="J1" library="SparkFun-Connectors" package="2X3" value="AVR_SPI_PRG_6PTH" x="21.828125" y="7.77875" smashed="yes"/>
+<element name="L1" library="microbuilder" package="_0402" value="8.2nH" x="11.826875" y="16.98625" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.779375" y="16.19235" size="0.8128" layer="25" ratio="18" rot="R180"/>
+</element>
+<element name="L2" library="microbuilder" package="_0402" value="5.6nH" x="13.17625" y="18.89125" smashed="yes" rot="R90">
+<attribute name="NAME" x="12.38235" y="17.93875" size="0.8128" layer="25" ratio="18" rot="R90"/>
+</element>
+<element name="L3" library="microbuilder" package="_0402" value="3.9nH" x="10.63625" y="18.89125" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.84235" y="17.93875" size="0.8128" layer="25" ratio="18" rot="R90"/>
+</element>
+<element name="L4" library="microbuilder" package="_0603" value="10µH" x="6.82625" y="6.82625" smashed="yes" rot="R180">
+<attribute name="NAME" x="6.19125" y="5.87375" size="0.8128" layer="25" ratio="18" rot="R180"/>
+</element>
+<element name="L5" library="microbuilder" package="_0603" value="15nH" x="3.4925" y="6.82625" smashed="yes" rot="R180">
+<attribute name="NAME" x="4.7625" y="5.87375" size="0.8128" layer="25" ratio="18" rot="R180"/>
+</element>
+<element name="R1" library="SparkFun-Resistors" package="0603-RES" value="22K" x="6.82625" y="14.605" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.71525" y="13.843" size="0.4064" layer="25" font="vector" rot="R180"/>
+</element>
+<element name="R2" library="SparkFun-Resistors" package="0603-RES" value="10K" x="23.33625" y="27.46375" smashed="yes" rot="R315">
+<attribute name="NAME" x="21.69256875" y="28.405821875" size="0.4064" layer="25" font="vector" rot="R45"/>
+</element>
+<element name="U$1" library="pimoroni-optoelectronics" package="LED-3535" value="SK6812MINI" x="2.54" y="2.54" smashed="yes" rot="R90"/>
+<element name="U$11" library="pimoroni-optoelectronics" package="LED-3535" value="SK6812MINI" x="27.14625" y="2.54" smashed="yes" rot="R180"/>
+<element name="U$15" library="pimoroni-optoelectronics" package="LED-3535" value="SK6812MINI" x="27.46" y="27.46" smashed="yes" rot="R270"/>
+<element name="U$17" library="pimoroni-optoelectronics" package="LED-3535" value="SK6812MINI" x="2.54" y="27.46" smashed="yes"/>
+<element name="U$28" library="microbuilder" package="ANT_PCB_2.4GHZ_NRF8001_1.6MM_1OZ" value="" x="9.128125" y="24.685625" smashed="yes" rot="MR180"/>
+<element name="U1" library="Texas Instruments_By_element14_Batch_1" package="SOT95P280X145-5N" value="LP2985A-33DBVTE4" x="7.064375" y="23.415625" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" value="1053660" x="7.064375" y="23.415625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="LP2985A-33DBVTE4" x="7.064375" y="23.415625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="SOT-23-5" x="7.064375" y="23.415625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="79K3928" x="7.064375" y="23.415625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="Texas Instruments" x="7.064375" y="23.415625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U2" library="microbuilder" package="QFN32_5MM" value="nRF8001" x="12.54125" y="10.795" rot="R90"/>
-<element name="U3" library="SparkFun-DigitalIC" package="TQFP32-08" value="ATMEGA328P_TQFP" x="22.304375" y="19.923125" rot="R315">
+<element name="U2" library="microbuilder" package="QFN32_5MM" value="nRF8001" x="12.54125" y="10.795" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.24325" y="8.255" size="0.8128" layer="25" ratio="18" rot="R90"/>
+</element>
+<element name="U3" library="SparkFun-DigitalIC" package="TQFP32-08" value="ATMEGA328P_TQFP" x="22.304375" y="19.923125" smashed="yes" rot="R315">
 <attribute name="PROD_ID" value="IC-09069" x="22.304375" y="19.923125" size="1.778" layer="27" rot="R315" display="off"/>
 </element>
-<element name="Y1" library="microbuilder" package="CRYSTAL_3.2X2.5" value="16MHz" x="2.8575" y="11.27125" rot="R180"/>
-<element name="Y2" library="microbuilder" package="CRYSTAL_8X3.8" value="FC-255 32.7680K-A3" x="20.47875" y="3.7"/>
-<element name="Y4" library="microbuilder" package="CRYSTAL_3.2X2.5" value="16MHz" x="15.795625" y="24.526875" rot="R225"/>
-<element name="C21" library="SparkFun-Capacitors" package="0603-CAP" value="2.2uF" x="6.0325" y="26.9875" rot="R90">
+<element name="Y1" library="microbuilder" package="CRYSTAL_3.2X2.5" value="16MHz" x="2.8575" y="11.27125" smashed="yes" rot="R180">
+<attribute name="NAME" x="2.111375" y="9.3345" size="0.8128" layer="25" ratio="18" rot="R180"/>
+</element>
+<element name="Y2" library="microbuilder" package="CRYSTAL_8X3.8" value="FC-255 32.7680K-A3" x="20.47875" y="3.7" smashed="yes">
+<attribute name="NAME" x="24.4425" y="1.304125" size="0.8128" layer="25" ratio="18" rot="R180"/>
+</element>
+<element name="Y4" library="microbuilder" package="CRYSTAL_3.2X2.5" value="16MHz" x="15.795625" y="24.526875" smashed="yes" rot="R225"/>
+<element name="C21" library="SparkFun-Capacitors" package="0603-CAP" value="2.2uF" x="6.0325" y="26.9875" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="CAP-07888" x="6.0325" y="26.9875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="5.2705" y="26.0985" size="0.4064" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C22" library="SparkFun-Capacitors" package="0603-CAP" value="10nF" x="8.09625" y="26.9875" rot="R90">
+<element name="C22" library="SparkFun-Capacitors" package="0603-CAP" value="10nF" x="8.09625" y="26.9875" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="CAP-00867" x="8.09625" y="26.9875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="7.33425" y="26.0985" size="0.4064" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C23" library="SparkFun-Capacitors" package="0805-CAP" value="" x="6.985" y="20.32"/>
-<element name="C24" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="20.47875" y="27.543125" rot="R135">
+<element name="C23" library="SparkFun-Capacitors" package="0805-CAP" value="" x="6.985" y="20.32" smashed="yes">
+<attribute name="NAME" x="8.143875" y="19.4945" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="5.969" y="18.923" size="0.4064" layer="27"/>
+</element>
+<element name="C24" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="20.47875" y="27.543125" smashed="yes" rot="R135">
 <attribute name="PROD_ID" value="CAP-00810" x="20.47875" y="27.543125" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="NAME" x="18.993815625" y="28.32645" size="0.4064" layer="25" font="vector" rot="R45"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" package="FTDI_DEVICE_RA_SMT" value="FTDI_DEVICERA_SMT" x="31.511875" y="19.288125" rot="MR270">
+<element name="J2" library="SparkFun-Connectors" package="FTDI_DEVICE_RA_SMT" value="FTDI_DEVICERA_SMT" x="31.511875" y="19.288125" smashed="yes" rot="MR270">
 <attribute name="PROD_ID" value="CONN-08971" x="31.511875" y="19.288125" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="C17" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="23.65375" y="26.67" rot="MR90">
+<element name="C17" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="23.65375" y="26.67" smashed="yes" rot="MR90">
 <attribute name="PROD_ID" value="CAP-00810" x="23.65375" y="26.67" size="1.016" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="24.41575" y="25.781" size="0.4064" layer="26" font="vector" rot="MR90"/>
 </element>
 </elements>
 <signals>
